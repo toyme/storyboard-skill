@@ -1,4 +1,4 @@
 interface:
   display_name: "Storyboard Skill"
-  short_description: "Storyboard prompts, bibles, shots, and continuity."
-  default_prompt: "Use $storyboard-skill to turn this scene into structured image prompts with continuity notes."
+  short_description: "Plan AI image storyboards with shot prompts and continuity checks."
+  default_prompt: "Use $storyboard-skill to turn this scene into storyboard image prompts with continuity notes and fix prompts."

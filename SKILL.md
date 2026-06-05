@@ -28,10 +28,13 @@ Never ask the user to paste an entire bible or long thread when a compact projec
    - For prompt formatting details, read `references/prompt-patterns.md`.
    - For platform safety, NSFW, likeness, or restricted-content checks, read `references/prompt-safety-checklist.md`.
    - For project layout details, read `references/project-structure.md`.
+   - For examples of expected output shape, read only the relevant file in `examples/`.
 
 3. Produce structured outputs with clear section labels. Prefer YAML, Markdown tables, or compact prompt blocks over long prose.
 
 4. Keep generated prompts self-contained enough for an image model, but avoid repeating the full project bible. Include only the character/style/continuity details that affect the current shot.
+
+5. When the user is creating a reusable project, update project files instead of keeping all decisions only in chat.
 
 ## Recommended Project Layout
 
@@ -105,3 +108,9 @@ Avoid broad rewrites when the user asks for a localized fix.
 - Read `references/project-structure.md` when creating or repairing the project file layout.
 - Read `references/prompt-patterns.md` when generating prompts, fix prompts, or review rubrics.
 - Read `references/prompt-safety-checklist.md` when reviewing storyboard frames or image prompts for NSFW, restricted content, real-person likeness, minors, violence, copyrighted characters, or platform compliance risks.
+
+## Example Files
+
+- Read `examples/short-drama-scene.md` when the user needs a scene split into multiple storyboard prompts.
+- Read `examples/image-prompt-review.md` when the user asks for continuity, prompt-quality, or safety review.
+- Read `examples/fix-prompt.md` when the user asks to preserve an approved image while changing one specific detail.
